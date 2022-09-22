@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import MainPage from './pages/Main';
 import PostingPage from './pages/Posting';
 import PostPage from './pages/Post';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<MainPage/>}/>
         <Route path="/post/:id" element={<PostPage/>}/>
         <Route path="/posting" element={<PostingPage/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </div>
