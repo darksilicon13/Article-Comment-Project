@@ -19,3 +19,7 @@ footer {
   width: 100%;
   background-color: skyblue;
 }
+
+li {
+  list-style: none;
+}
